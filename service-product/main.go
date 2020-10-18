@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/spf13/viper"
-	"github.com/wskurniawan/intro-microservice/service-product/config"
-	"github.com/wskurniawan/intro-microservice/service-product/database"
-	"github.com/wskurniawan/intro-microservice/service-product/handler"
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	"github.com/spf13/viper"
+	"github.com/zafiranursabila/intro-microservice/service-product/config"
+	"github.com/zafiranursabila/intro-microservice/service-product/database"
+	"github.com/zafiranursabila/intro-microservice/service-product/handler"
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
 )
 
 func main() {

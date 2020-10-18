@@ -2,8 +2,8 @@ package handler
 
 import (
 	"encoding/json"
-	"github.com/wskurniawan/intro-microservice/service-product/database"
-	"github.com/wskurniawan/intro-microservice/utils"
+	"github.com/zafiranursabila/intro-microservice/service-product/database"
+	"github.com/zafiranursabila/intro-microservice/utils"
 	"gorm.io/gorm"
 	"io/ioutil"
 	"net/http"

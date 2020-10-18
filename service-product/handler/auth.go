@@ -2,8 +2,8 @@ package handler
 
 import (
 	"encoding/json"
-	"github.com/wskurniawan/intro-microservice/service-product/config"
-	"github.com/wskurniawan/intro-microservice/utils"
+	"github.com/zafiranursabila/intro-microservice/service-product/config"
+	"github.com/zafiranursabila/intro-microservice/utils"
 	"io/ioutil"
 	"net/http"
 )
